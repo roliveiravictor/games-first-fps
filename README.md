@@ -1,14 +1,20 @@
 # README #
 
-First game 3D ever developed.
+First FPS game 3D ever developed.
 
-Title: Battery Man
+Title: FirstFPS
 
 Engine: Unreal 4
 Programming Language: C++
 IDE: Visual Studio 2013
 
-Tutorial: Unreal Tutorials - https://wiki.unrealengine.com/Introduction_to_UE4_Programming_-_1_-_Overview
+Tutorial: 
+
+* https://wiki.unrealengine.com/First_Person_Shooter_C%2B%2B_Tutorial
+
+Note:
+
+* **01/11/2014** - This project was first created to follow Alan Thorn's Book practical exercises. Unfortunately, Alan's book is outdated and I've needed to improvise with my own knowledge to go further with this development. Until now, only the above tutorial was used to guide me. By the time I need more information about how to develop X or Y functionality at unreal I will be adding those tutorials here. Also, it's good to mention that to increase my development difficulty, I'v e started challenge from a completely blank project.
 
 ### What is this repository for? ###
 
