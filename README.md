@@ -16,8 +16,7 @@ Tutorial:
 
 Note:
 
-* **11/11/2014** - Today I've updated my UE4 version from 4.1 to 4.4; The reason was a bug with my custom game mode which was crashing the game even before it was running.
-
+* **11/11/2014** - Today I've updated my UE4 version from 4.1 to 4.4; The reason was a bug with my custom game mode which was crashing the game even before it was running. <br>
 
 * **01/11/2014** - This project was first created to follow Alan Thorn's Book practical exercises. Unfortunately, Alan's book is outdated and I've needed to improvise with my own knowledge to go further with this development. Until now, only the above tutorial was used to guide me. By the time I need more information about how to develop X or Y functionality at unreal I will be adding those tutorials here. Also, it's good to mention that to increase my development difficulty, I'v e started challenge from a completely blank project.
 
