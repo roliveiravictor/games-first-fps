@@ -16,7 +16,7 @@ Tutorial:
 
 Note:
 
-* **12/11/2014** - Level design video released: https://www.youtube.com/watch?v=2sWxYkZPGZM. This is how the level design looks like so far. I didn't to waste too much time with it, so I've imported a level from UE Marketplace. I made some customizations with some other imported assets, thus the map will fulfill my purposes. Now I can focus on programming the game behavior.
+* **12/11/2014** - Level design video released: https://www.youtube.com/watch?v=2sWxYkZPGZM. This is how the level design looks like so far. I didn't want to waste too much time with it, so I've imported a level from UE Marketplace. I made some customizations with some other imported assets, thus the map will fulfill my purposes. Now I can focus on programming the game behavior.
 
 * **11/11/2014** - Today I've updated my UE4 version from 4.1 to 4.4; The reason was a bug with my custom game mode which was crashing the game even before it was running.
 
