@@ -5,6 +5,7 @@
 #include "GameFramework/GameMode.h"
 #include "MyGameMode.generated.h"
 
+
 /**
  * 
  */
@@ -13,7 +14,7 @@ class AMyGameMode : public AGameMode
 {
 	GENERATED_UCLASS_BODY()
 
-	virtual void BeginPlay() override;
+	virtual void StartPlay() override;
 };
 
 

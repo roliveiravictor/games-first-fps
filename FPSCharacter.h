@@ -15,17 +15,15 @@ class AFPSCharacter : public ACharacter
 
 protected:
 
-	/*
-	Initialization of  player input components and its action
-	*/
+	//Initialization of  player input components and its action
 	virtual void SetupPlayerInputComponent(class UInputComponent * InputComponent) override;
 
-	/*UFUNCTION()
-	void MoveForward(float Val);
+	UFUNCTION()
+	void MoveForward(float val);
 
 	UFUNCTION()
-	void MoveRight(float Val);
+	void MoveRight(float val);
 
 	UFUNCTION()
-	void Open();*/
+	void Open();
 };
