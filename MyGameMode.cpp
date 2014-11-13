@@ -7,8 +7,13 @@
 AMyGameMode::AMyGameMode(const class FPostConstructInitializeProperties& PCIP)
 	: Super(PCIP)
 {
+
+	/*	Free view pawn. To use, AFPSCharacter.h needs to included 	*/
 	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FObjectFinder<UBlueprint> PlayerPawnObject(TEXT("Blueprint'/Game/ExampleContent/AnimationDemo/BluePrints/SimpleAnimationBPCharacter.SimpleAnimationBPCharacter'"));
+	//DefaultPawnClass = AFPSCharacter::StaticClass();
+	
+	//Imported BP asset 3rdPersonPawn - It will be later converted to 1stPerson
+	static ConstructorHelpers::FObjectFinder<UBlueprint> PlayerPawnObject(TEXT("Blueprint'/Game/ExampleContent/AnimationDemo/BluePrints/3rdPersonPawn.3rdPersonPawn'"));
 	if (PlayerPawnObject.Object != NULL)
 	{
 		DefaultPawnClass = (UClass*)PlayerPawnObject.Object->GeneratedClass;

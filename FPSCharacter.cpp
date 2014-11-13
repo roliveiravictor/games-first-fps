@@ -19,6 +19,7 @@ void AFPSCharacter::SetupPlayerInputComponent(UInputComponent * InputComponent)
 	InputComponent->BindAxis("MoveRight", this, &AFPSCharacter::MoveRight);
 	
 	InputComponent->BindAction("Open", IE_Released, this, &AFPSCharacter::Open);	
+	InputComponent->BindAction("Jump", IE_Released, this, &AFPSCharacter::OnJump);
 }
 
 void AFPSCharacter::MoveForward(float Value)
@@ -57,6 +58,11 @@ void AFPSCharacter::MoveRight(float Value)
 }
 
 void AFPSCharacter::Open()
+{
+	//Do the math
+}
+
+void AFPSCharacter::OnJump()
 {
 	//Do the math
 }

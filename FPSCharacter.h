@@ -26,4 +26,7 @@ protected:
 
 	UFUNCTION()
 	void Open();
+
+	UFUNCTION()
+	void OnJump();
 };
