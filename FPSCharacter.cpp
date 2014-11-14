@@ -7,10 +7,18 @@
 AFPSCharacter::AFPSCharacter(const class FPostConstructInitializeProperties& PCIP)
 	: Super(PCIP)
 {
+	//Create a CameraComponent
+	FirstPersonCameraComponent = PCIP.CreateDefaultSubobject<UCameraComponent>(this, TEXT("FirstPersonCamera"));
+	FirstPersonCameraComponent->AttachParent = CapsuleComponent;
+
+	//Positioning the camera a bit above the eyse
+	FirstPersonCameraComponent->RelativeLocation = FVector(0, 0, 50.0f + BaseEyeHeight);
+	//Allow the pawn to control rotation
+	FirstPersonCameraComponent->bUseControllerViewRotation = true;
 
 }
 
-void AFPSCharacter::SetupPlayerInputComponent(UInputComponent * InputComponent)
+void AFPSCharacter::SetupPlayerInputComponent(UInputComponent* InputComponent)
 {
 	//Setup GamePlay Keybinds
 	InputComponent->BindAxis("Turn", this, &AFPSCharacter::AddControllerYawInput);

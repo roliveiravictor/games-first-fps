@@ -16,7 +16,10 @@ class AFPSCharacter : public ACharacter
 protected:
 
 	//Initialization of  player input components and its action
-	virtual void SetupPlayerInputComponent(class UInputComponent * InputComponent) override;
+	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	TSubobjectPtr<UCameraComponent> FirstPersonCameraComponent;
 
 	UFUNCTION()
 	void MoveForward(float val);
