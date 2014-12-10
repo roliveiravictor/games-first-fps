@@ -15,11 +15,15 @@ class AFPSCharacter : public ACharacter
 
 protected:
 
-	//Initialization of  player input components and its action
+	// Initialization of  player input components and its action
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	TSubobjectPtr<UCameraComponent> FirstPersonCameraComponent;
+
+	// 1st person mesh Arms seen only by self
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	TSubobjectPtr<USkeletalMeshComponent> FirstPersonMesh;
 
 	UFUNCTION()
 	void MoveForward(float val);
