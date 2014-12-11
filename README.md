@@ -29,7 +29,7 @@ Note:
 
 ### Contribution guidelines ###
 
-* https://wiki.unrealengine.com/First_Person_Shooter_C%2B%2B_Tutorial
+* First Person Shooter C++ Tutorial - https://wiki.unrealengine.com/First_Person_Shooter_C%2B%2B_Tutorial
 
 ### Who do I talk to? ###
 
