@@ -10,10 +10,6 @@ Programming Language: C++
 
 IDE: Visual Studio 2013
 
-Tutorial: 
-
-* https://wiki.unrealengine.com/First_Person_Shooter_C%2B%2B_Tutorial
-
 Note:
 
 * **12/11/2014** - Level design video released: https://www.youtube.com/watch?v=2sWxYkZPGZM. This is how the level design looks like so far. I didn't want to waste too much time with it, so I've imported a level from UE Marketplace. I made some customizations with some other imported assets, thus the map will fulfill my purposes. Now I can focus on programming the game behavior.
@@ -33,7 +29,7 @@ Note:
 
 ### Contribution guidelines ###
 
-* N/A
+* https://wiki.unrealengine.com/First_Person_Shooter_C%2B%2B_Tutorial
 
 ### Who do I talk to? ###
 
