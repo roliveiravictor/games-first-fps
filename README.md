@@ -11,7 +11,7 @@ Programming Language: C++
 IDE: Visual Studio 2013
 
 Note:
-
+* **12/11/2014** - I implemented today my own HUD. It's pretty simples until now with just a crosshair aim. I also tried to implement a folder structure to make a better organization of the codes as I did in other repositories. The thing is, I couldn't do it because some restrictions by unreal are somehow blocking it. I believe it regards to Unreal references and its purpose is not mess around with the path of the codes. Anyway, I will do this structure when I'm done with the project.
 * **12/11/2014** - Level design video released: https://www.youtube.com/watch?v=2sWxYkZPGZM. This is how the level design looks like so far. I didn't want to waste too much time with it, so I've imported a level from UE Marketplace. I made some customizations with some other imported assets, thus the map will fulfill my purposes. Now I can focus on programming the game behavior.
 
 * **11/11/2014** - Today I've updated my UE4 version from 4.1 to 4.4; The reason was a bug with my custom game mode which was crashing the game even before it was running.
