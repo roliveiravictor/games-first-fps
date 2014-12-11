@@ -10,19 +10,22 @@
 
 #pragma once
 
-#include "GameFramework/GameMode.h"
-#include "MyGameMode.generated.h"
-
+#include "GameFramework/HUD.h"
+#include "FPSHUD.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class AMyGameMode : public AGameMode
+class ALANTHORNSBOOK01_API AFPSHUD : public AHUD
 {
 	GENERATED_UCLASS_BODY()
 
-	virtual void StartPlay() override;
+private:
+
+	/* Crosshair asset pointer */
+	UTexture2D* CrosshairTex;
+
+	/* Primary draw call for HUD */
+	virtual void DrawHUD() OVERRIDE;
 };
-
-
