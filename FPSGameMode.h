@@ -11,18 +11,15 @@
 #pragma once
 
 #include "GameFramework/GameMode.h"
-#include "MyGameMode.generated.h"
-
+#include "FPSGameMode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class AMyGameMode : public AGameMode
+class FPS_API AFPSGameMode : public AGameMode
 {
 	GENERATED_UCLASS_BODY()
-
-	virtual void StartPlay() override;
+	
+    virtual void StartPlay() override;	
 };
-
-

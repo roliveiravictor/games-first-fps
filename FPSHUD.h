@@ -17,15 +17,15 @@
  * 
  */
 UCLASS()
-class ALANTHORNSBOOK01_API AFPSHUD : public AHUD
+class FPS_API AFPSHUD : public AHUD
 {
 	GENERATED_UCLASS_BODY()
-
+	
 private:
 
-	/* Crosshair asset pointer */
-	UTexture2D* CrosshairTex;
+    /* Crosshair asset pointer */
+    UTexture2D* CrosshairTex;
 
-	/* Primary draw call for HUD */
-	virtual void DrawHUD() OVERRIDE;
+    /* Primary draw call for HUD */
+    virtual void DrawHUD() override;
 };
