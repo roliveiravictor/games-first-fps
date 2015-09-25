@@ -2,7 +2,7 @@
 
 First FPS game ever developed.
 
-Title: FirstFPS
+Title: First FPS
 
 Engine: Unreal 4.9
 
