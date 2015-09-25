@@ -1,6 +1,6 @@
 # README #
 
-First FPS game 3D ever developed.
+First FPS game ever developed.
 
 Title: FirstFPS
 
