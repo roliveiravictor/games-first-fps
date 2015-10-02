@@ -12,6 +12,8 @@ IDE: Visual Studio 2013
 
 Note:
 
+* **02/10/2015** - I'm learning some blueprint basics to move forward on this development. Things are going pretty well and I hope to make in a few days a new video to update what I've done since.
+
 * **25/09/2015** - Code update from Unreal Engine 4.7 to 4.9. It has been a long time between this and the last update note, things got really creepy at my bachelor's ending haha I hope to get a great work sequence in this project from now on.
 
 * **11/12/2014** - I implemented today my own HUD. It's pretty simples until now with just a crosshair aim. I also tried to implement a folder structure to make a better organization of the codes as I did in other repositories. The thing is, I couldn't do it because some restrictions by unreal are somehow blocking it. I believe it regards to Unreal references and its purpose is not mess around with the path of the codes. Anyway, I will do this structure when I'm done with the project.
