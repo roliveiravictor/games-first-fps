@@ -12,6 +12,8 @@ IDE: Visual Studio 2013
 
 Note:
 
+* **11/10/2015** - Implemented blueprint elevator mechanic with sound effects: https://www.youtube.com/watch?v=J7FR_VEtgc4. I will be probably trying to learn some text animation with flash in a few days to replace the simple "Suvirve" at game start or how to spawn enemies.
+
 * **02/10/2015** - I'm learning some blueprint basics to move forward on this development. Things are going pretty well and I hope to make in a few days a new video to update what I've done since.
 
 * **25/09/2015** - Code update from Unreal Engine 4.7 to 4.9. It has been a long time between this and the last update note, things got really creepy at my bachelor's ending haha I hope to get a great work sequence in this project from now on.
