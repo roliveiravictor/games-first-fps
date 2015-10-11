@@ -12,7 +12,7 @@ IDE: Visual Studio 2013
 
 Note:
 
-* **11/10/2015** - Implemented blueprint elevator mechanic with sound effects: https://www.youtube.com/watch?v=J7FR_VEtgc4. I will be probably trying to learn some text animation with flash in a few days to replace the simple "Suvirve" at game start or how to spawn enemies.
+* **11/10/2015** - Implemented blueprint elevator mechanic with sound effects: https://www.youtube.com/watch?v=J7FR_VEtgc4. I will be probably trying to learn some text animation with flash in a few days to replace the simple "Survive" at game start or how to spawn enemies.
 
 * **02/10/2015** - I'm learning some blueprint basics to move forward on this development. Things are going pretty well and I hope to make in a few days a new video to update what I've done since.
 
