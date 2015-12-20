@@ -28,8 +28,8 @@ Note:
 
 ### What is this repository for? ###
 
-* This is a backup code of my first FPS game 3d ever developed
-* Version 1.0
+* This is a backup code of my first FPS game 3D ever developed
+* Version 1.0  [Deprecated for now - 20.12.2015]
 
 ### How do I get set up? ###
 
